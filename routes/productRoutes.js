@@ -9,7 +9,7 @@ const {
   updateStock,
   getLowStockReport,
   getCategorySummary
-} = require('../controllers/productController');
+} = require('../controller/productController');
 const { validateProductInput } = require('../middleware/validate');
 
 // Aggregation & Specific static routes must be placed BEFORE dynamic :id routes
